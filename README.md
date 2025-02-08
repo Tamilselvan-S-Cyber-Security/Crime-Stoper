@@ -10,11 +10,17 @@ Download and install Anaconda from:
 Open **Anaconda Prompt** or **Terminal** and run:
 
 ```bash
-conda create --name my_env python=3.9
+conda create --name dlib_env
+  ```
+## 3. Activate the Virtual Environment
+Run the following command:
 
+## Windows:
+```bash
+conda activate dlib_env
+  ```
 
-
-
+   ```bash
 pip install streamlit opencv-python-headless ultralytics numpy pandas pygame pyttsx3 torch Pillow
    ```
 3. Run the application:
