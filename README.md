@@ -1,3 +1,20 @@
+# Setting Up a Virtual Environment with Anaconda
+
+## 1. Install Anaconda
+Download and install Anaconda from:  
+[Anaconda Official Download](https://www.anaconda.com/download)
+
+---
+
+## 2. Create a Virtual Environment
+Open **Anaconda Prompt** or **Terminal** and run:
+
+```bash
+conda create --name my_env python=3.9
+
+
+
+
 pip install streamlit opencv-python-headless ultralytics numpy pandas pygame pyttsx3 torch Pillow
    ```
 3. Run the application:
