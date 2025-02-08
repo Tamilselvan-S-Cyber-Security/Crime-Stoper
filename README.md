@@ -79,3 +79,12 @@ pip install -r requirements.txt
 ├── data/              # Detection logs and data
 ├── targets/           # Custom target images
 └── detections/        # Saved detection images
+
+
+# Project Title
+
+## Demo Video 🎥  
+<video width="600" controls autoplay loop muted>
+  <source src="https://fit-ai-english.web.app" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
