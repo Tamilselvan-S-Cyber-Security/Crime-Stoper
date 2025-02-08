@@ -22,8 +22,14 @@ conda activate dlib_env
 
    ```bash
 pip install streamlit opencv-python-headless ultralytics numpy pandas pygame pyttsx3 torch Pillow
-   ```
-3. Run the application:
+ ```
+
+## 2. Install Dependencies from requirements.txt
+Run the following command to install all the packages listed in the file:
+ ```bash
+pip install -r requirements.txt
+ ```
+## 3. Run the application:
    ```bash
    streamlit run app.py
    ```
@@ -52,36 +58,6 @@ pip install streamlit opencv-python-headless ultralytics numpy pandas pygame pyt
 
 5. **Viewing Results**:
    - Real-time camera feed with detection boxes
-
-
-## Email Alert Configuration
-
-1. **Set Up EmailJS Account**:
-   - Create an account at [EmailJS](https://www.emailjs.com)
-   - Create a new email service
-   - Create an email template
-
-2. **Configure Environment Variables**:
-   Set the following environment variables in your Repl:
-   - `EMAILJS_USER_ID`: Your EmailJS User ID
-   - `EMAILJS_SERVICE_ID`: Your EmailJS Service ID
-   - `EMAILJS_TEMPLATE_ID`: Your EmailJS Template ID
-   - `ALERT_EMAIL`: Recipient email address for alerts
-
-3. **Test Configuration**:
-   - Click "Test Email Alert" in the sidebar
-   - Check the success/failure status
-   - Verify receipt of test email
-
-4. **Customizing Alerts**:
-   - Alerts are sent automatically when objects are detected
-   - Each alert includes timestamp, detected objects, and confidence levels
-   - Template can be customized in `templates/emailjs_template.html`
-
-
-   - Detection statistics and counts
-   - Recent detections gallery
-   - Detection logs in CSV format
 
 ## Future Features
 
