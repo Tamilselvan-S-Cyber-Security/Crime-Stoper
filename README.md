@@ -29,6 +29,8 @@ pip install streamlit opencv-python-headless ultralytics numpy pandas pygame pyt
                                         
 ## The Source code Extract zip file 
 ## go to folder and  this steps any doubt Waching Video...
+![Screenshot](Screenshot%202025-02-12%20163943.png)
+
  ```bash
 cmd
  ```
