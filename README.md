@@ -24,6 +24,19 @@ conda activate dlib_env
 pip install streamlit opencv-python-headless ultralytics numpy pandas pygame pyttsx3 torch Pillow
  ```
 
+
+                                                            
+                                        
+## The Source code Extract zip file 
+## go to folder and  this steps any doubt Waching Video...
+ ```bash
+cmd
+ ```
+
+ ```bash
+conda activate dlib_env
+ ```
+
 ## 2. Install Dependencies from requirements.txt
 Run the following command to install all the packages listed in the file:
  ```bash
